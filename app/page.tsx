@@ -24,7 +24,7 @@ export default async function Home() {
       </header>
       <section className="w-full p-0">
         
-        <Image src={heroImage} className="w-full h-52" alt="Rosary" />
+        <Image placeholder="blur" src={heroImage} className="w-full h-52" alt="Rosary" />
         <nav>
           <ul className="flex mb-8 p-0 mx-0 justify-between items-center">
           <li className="my-2 underline">
