@@ -18,3 +18,13 @@ export const getDay=()=>{
     })
     return dayOfWeek
 }
+
+export const mapDayToKonkani:any = {
+    sunday: "Aitar",
+    monday: "Somar",
+    tuesday: "Mûnglar",
+    wednesday: "Bûdvar",
+    thursday: "Brestar",
+    friday: "Sûkrar",
+    saturday: "Shenvar"
+};
