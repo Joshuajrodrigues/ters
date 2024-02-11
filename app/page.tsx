@@ -2,19 +2,19 @@ import Image from "next/image";
 import heroImage from '@/public/hero.jpg'
 import { getDay, getRosaries } from "./util";
 import { TodaysMystery } from "./components/todaysMystery";
-import RosaryData from "./types";
+import  { Rosaries } from "./types";
 
 async function getData() {
   const data = await getRosaries()
 
-  return data[0]
+  return data
 }
 export default async function Home() {
-  const data:RosaryData = await getData()
+  const data:Rosaries = await getData()
   
   const day = getDay()
  
-  const todaysGutt = data.rosary.filter((item)=>item.day.includes(day.toLowerCase()))
+  const todaysGutt = data.filter((item)=>item.day.includes(day.toLowerCase()))
    
   return (
     <main className=" min-h-screen flex-col ">
@@ -23,7 +23,7 @@ export default async function Home() {
        
       </header>
       <section className="w-full p-0">
-        <a href="">How to</a>
+        
         <Image src={heroImage} className="w-full h-52" alt="Rosary" />
         <nav>
           <ul className="flex">
@@ -43,12 +43,12 @@ export default async function Home() {
         <TodaysMystery gutt={todaysGutt} />
       </section>
       <footer>
-        <h3 className="mt-8 text-2xl ">
-          <a className="underline" href="">
+     
+          <a className="underline mt-8 text-2xl " href="">
           Ladin
             
           </a>
-        </h3>
+       
       </footer>
     </main>
   );

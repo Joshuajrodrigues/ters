@@ -1,20 +1,11 @@
-interface RosaryMystery {
+interface Mystery {
     title: string;
 }
 
-export interface RosaryDay {
+export interface RosaryOfTheDay {
     day: string[];
     title: string;
-    mysteries: RosaryMystery[];
+    mysteries: Mystery[];
 }
 
-interface RosaryData {
-    lang: string;
-    rosary: RosaryDay[];
-}
-
-interface RosaryDataSet {
-    [index: number]: RosaryData;
-}
-
-export default  RosaryData
+export type Rosaries = RosaryOfTheDay[];
