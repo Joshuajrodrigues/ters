@@ -69,22 +69,23 @@
       {
         "day": ["wednessday", "sunday"],
         "title": "Onondache Gutt",
+        "engTitle":"The Glorious Mysteries",
         "mysteries": [
           {
-            "title": "Bhoddvea Gabrielan Ankvar Mariek khobor dili, Devacho Putr tiche kuxint ietolo mohnn, ani Povitr Atmeache kurpen ti gorbest zali."
+            "title": "Somi Jezu jivont zata."
           },
           {
-            "title": "Ankvar Maria gorbest astanan Santa Izabel aple mauxe-bhoinnink bhett korunk geli ani tiche thaim tin mhoine tiche sevek ravli."
+            "title": "Somi Jezu sorgar choddta."
           },
           {
-            "title": "Ankvar Maria Ballka Jezuk porsut zali Belea xarant, gorvanchea gottheant, monzatim modem."
+            "title": "Povitr Otmo Anvkvar Moriecher ani Apostolancher denvta."
           },
           {
-            "title": "Ankvar Marien Ballka Jezuk bhettoilo Devmondirant ani Taka Sam Simeanvchea hatant dilo."
+            "title": "Anvkvar Moriek kuddi otmea somet sorgar ghetat."
           },
 
           {
-            "title": "Porbechea disa sanddlea upran tin disamnim Ballok Jezu Dev-mondirant mell'lo."
+            "title": "Anvkvar Moriek sorga sonvsarachi Ranni mhonn kurvar kortat."
           }
         ]
       }
