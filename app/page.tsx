@@ -26,14 +26,14 @@ export default async function Home() {
         
         <Image src={heroImage} className="w-full h-52" alt="Rosary" />
         <nav>
-          <ul className="flex justify-center items-baseline">
-          <li className="m-2 underline">
+          <ul className="flex mb-8 p-0 mx-0 justify-between items-center">
+          <li className="my-2 underline">
               <a href="">All mysteries</a>
             </li>
-          <li className="m-2 underline">
+          <li className="my-2 underline">
               <a href="">Ladin</a>
             </li>
-            <li className="m-2 underline">
+            <li className="my-2 underline">
               <a href="">Other Konkani Prayers</a>
             </li>
           </ul>
