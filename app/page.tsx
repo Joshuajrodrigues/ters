@@ -26,7 +26,7 @@ export default async function Home() {
         
         <Image src={heroImage} className="w-full h-52" alt="Rosary" />
         <nav>
-          <ul className="flex">
+          <ul className="flex justify-center items-baseline">
           <li className="m-2 underline">
               <a href="">All mysteries</a>
             </li>
