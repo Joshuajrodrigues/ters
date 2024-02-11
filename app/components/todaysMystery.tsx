@@ -14,12 +14,12 @@ export const TodaysMystery = ({ gutt }: { gutt: RosaryOfTheDay[] }) => {
         <small> {getDay()}</small>
       </h3>
       {data.mysteries.map((item, index) => (
-        <>
+        <div key={item.title}>
           <h4 key={item.title} className="text-3xl my-8">
             {`${index + 1}] ${item.title}`}
           </h4>
           <div className=" bg-orange-600  h-2 my-8 w-1/2"></div>
-        </>
+        </div>
       ))}
     </>
   );

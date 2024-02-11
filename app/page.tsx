@@ -23,7 +23,19 @@ export default async function Home() {
        
       </header>
       <section className="w-full p-0">
-        
+      <nav>
+          <ul className="flex  p-0 mx-0 justify-between items-center">
+          <li className="my-2 underline">
+              <a href="">How to ?</a>
+            </li>
+          <li className="my-2 underline">
+              <a href="">Ladin</a>
+            </li>
+            <li className="my-2 underline">
+              <a href="">Other Konkani Prayers</a>
+            </li>
+          </ul>
+        </nav>
         <Image placeholder="blur" src={heroImage} className="w-full h-52" alt="Rosary" />
         <nav>
           <ul className="flex mb-8 p-0 mx-0 justify-between items-center">
