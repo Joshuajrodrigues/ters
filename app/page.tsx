@@ -1,5 +1,4 @@
-import Image from "next/image";
-import heroImage from '@/public/hero.jpg'
+
 import { getDay, getRosaries } from "./util";
 import { TodaysMystery } from "./components/todaysMystery";
 import  { Rosaries } from "./types";
@@ -18,39 +17,6 @@ export default async function Home() {
    
   return (
     <main className=" min-h-screen flex-col ">
-      <header>
-        <h1 className="text-8xl my-8">Ters </h1>
-       
-      </header>
-      <section className="w-full p-0">
-      <nav>
-          <ul className="flex  p-0 mx-0 justify-between items-center">
-          <li className="my-2 underline">
-              <a href="">How to ?</a>
-            </li>
-          <li className="my-2 underline">
-              <a href="">Ladin</a>
-            </li>
-            <li className="my-2 underline">
-              <a href="">Other Konkani Prayers</a>
-            </li>
-          </ul>
-        </nav>
-        <Image placeholder="blur" src={heroImage} className="w-full h-52" alt="Rosary" />
-        <nav>
-          <ul className="flex mb-8 p-0 mx-0 justify-between items-center">
-          <li className="my-2 underline">
-              <a href="">All mysteries</a>
-            </li>
-          <li className="my-2 underline">
-              <a href="">Ladin</a>
-            </li>
-            <li className="my-2 underline">
-              <a href="">Other Konkani Prayers</a>
-            </li>
-          </ul>
-        </nav>
-      </section>
       <section>
         <TodaysMystery gutt={todaysGutt} />
       </section>
