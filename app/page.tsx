@@ -13,8 +13,9 @@ export default async function Home() {
   
   const day = getDay()
  
+
   const todaysGutt = data.filter((item)=>item.day.includes(day.toLowerCase()))
-   
+  
   return (
     <main className=" min-h-screen flex-col ">
       <section>
