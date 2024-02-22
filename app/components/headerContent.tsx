@@ -14,13 +14,14 @@ export const HeaderContent = () => {
         <nav>
           <ul className="flex  p-0 mx-0 justify-between items-center">
             <li className="my-2 underline">
-              <a href="">Sotmanta</a>
+              <QuickLinks route="/prayers/sotmanta">Sotmanta</QuickLinks>
             </li>
             <li className="my-2 underline">
-              <a href="">Amchea bapa</a>
+              <QuickLinks route="/prayers/amcheabapa">Amchea bapa</QuickLinks>
             </li>
             <li className="my-2 underline">
-              <a href="">Noman rani</a>
+            <QuickLinks route="/prayers/nomanrani">Noman rani</QuickLinks>
+        
             </li>
           </ul>
         </nav>
@@ -33,13 +34,15 @@ export const HeaderContent = () => {
         <nav>
           <ul className="flex mb-8 p-0 mx-0 justify-between items-center">
             <li className="my-2 underline">
-              <QuickLinks route="/allmysteries">All mysteries</QuickLinks>
+              <QuickLinks route="/prayers/allmysteries">
+                All mysteries
+              </QuickLinks>
             </li>
             <li className="my-2 underline">
-              <a href="">Ladin</a>
+              <QuickLinks route="/prayers/ladin">Ladin</QuickLinks>
             </li>
             <li className="my-2 underline">
-              <a href="">Other Konkani Prayers</a>
+              <QuickLinks route="/prayers/"> All Prayers</QuickLinks>
             </li>
           </ul>
         </nav>

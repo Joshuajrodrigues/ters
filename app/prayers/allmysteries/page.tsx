@@ -1,8 +1,8 @@
-import BackButton from "../components/backButton";
+import BackButton from "../../components/backButton";
 
 import data from '@/app/data/rosary.json'
-import { GuttLayout } from "../components/guttLayout";
-import { getDay, mapDayToKonkani, toNormalCase } from "../util";
+import { GuttLayout } from "../../components/guttLayout";
+import { getDay, mapDayToKonkani, toNormalCase } from "../../util";
 
 
 export default async function AllRosaries() {
@@ -10,7 +10,6 @@ export default async function AllRosaries() {
   return (
     <>
       <BackButton />
-      {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
       {
         data.map((item)=>(
           <>
