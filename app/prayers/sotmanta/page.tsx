@@ -8,9 +8,9 @@ const page = () => {
   return (
     <section className=" space-y-8">
       <BackButton />
-      <FullDivide />
+   
       <Title text={`Sotman’tam Devak`} />
-      <FullDivide />
+  
 
       <Paragraph>
         Sotman’tam Devak, Sorpodvedar Bapak, Sorga ani prithumechea Rochnnarak.
