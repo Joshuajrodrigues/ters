@@ -12,14 +12,7 @@ export default async function Home() {
       <section>
         <TodaysMystery/>
       </section>
-      <footer>
-     
-          <a className="underline mt-8 text-2xl " href="">
-          Ladin
-            
-          </a>
-       
-      </footer>
+
     </main>
   );
 }

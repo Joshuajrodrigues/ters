@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { RosaryOfTheDay } from "../types";
 import { getDay, mapDayToKonkani } from "../util";
+import FullDivide from "./fullDivide";
 
 export const GuttLayout = ({
   gutt,
@@ -11,9 +12,9 @@ export const GuttLayout = ({
 }) => {
   return (
     <>
-      <div className=" bg-orange-600  h-2 my-8"></div>
+      <FullDivide/>
       <h2 className=" text-3xl mt-8">Aicho gutt: {gutt?.title}</h2>
-      <div className=" bg-orange-600 h-2 my-8"></div>
+      <FullDivide/>
       <h3 className="mt-8 text-2xl ">{day}</h3>
       {gutt?.mysteries.map((item, index) => (
         <div key={item.title}>

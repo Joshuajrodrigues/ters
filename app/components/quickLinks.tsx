@@ -5,6 +5,6 @@ import { ReactNode } from "react"
 
 export const QuickLinks=({children,route}:{children:ReactNode,route:string})=>{
     return(
-        <Link href={route}>{children}</Link>
+        <Link className="pr-2" href={route}>{children}</Link>
     )
 }

@@ -3,13 +3,14 @@ import Image from "next/image";
 import heroImage from "@/public/hero.jpg";
 import Link from "next/link";
 import { QuickLinks } from "./quickLinks";
+import { appRoutes } from "../util/routes";
 
 export const HeaderContent = () => {
   return (
     <>
       <header>
         <h1 className="text-8xl my-8">
-          <QuickLinks route="/">Holy Ters</QuickLinks>
+          <QuickLinks route={appRoutes.home}>Holy Ters</QuickLinks>
            
           </h1>
       </header>
@@ -17,13 +18,13 @@ export const HeaderContent = () => {
         <nav>
           <ul className="flex  p-0 mx-0 justify-between items-center">
             <li className="my-2 underline">
-              <QuickLinks route="/prayers/sotmanta">Sotmanta</QuickLinks>
+              <QuickLinks route={appRoutes.sotmanta}>Sotmanta</QuickLinks>
             </li>
             <li className="my-2 underline">
-              <QuickLinks route="/prayers/amcheabapa">Amchea bapa</QuickLinks>
+              <QuickLinks route={appRoutes.amchabapa}>Amchea bapa</QuickLinks>
             </li>
             <li className="my-2 underline">
-            <QuickLinks route="/prayers/nomanrani">Noman rani</QuickLinks>
+            <QuickLinks route={appRoutes.nomanrani}>Noman rani</QuickLinks>
         
             </li>
           </ul>
@@ -37,15 +38,15 @@ export const HeaderContent = () => {
         <nav>
           <ul className="flex mb-8 p-0 mx-0 justify-between items-center">
             <li className="my-2 underline">
-              <QuickLinks route="/prayers/allmysteries">
+              <QuickLinks route={appRoutes.allmysteries}>
                 All mysteries
               </QuickLinks>
             </li>
             <li className="my-2 underline">
-              <QuickLinks route="/prayers/ladin">Ladin</QuickLinks>
+              <QuickLinks route={appRoutes.ladin}>Ladin</QuickLinks>
             </li>
             <li className="my-2 underline">
-              <QuickLinks route="/prayers/"> All Prayers</QuickLinks>
+              <QuickLinks route={appRoutes.prayers}> All Prayers</QuickLinks>
             </li>
           </ul>
         </nav>

@@ -1,17 +1,13 @@
-"use client"
-import { useRouter } from 'next/navigation';
 
+import Link from "next/link"
+import { appRoutes } from '../util/routes';
 const BackButton = () => {
-  const router = useRouter();
-
-  const handleClick = () => {
-    router.back();
-  };
 
   return (
-    <button className=' bg-orange-600 text-slate-800 p-2  font-semibold' onClick={handleClick}>
+ 
+    <Link href={appRoutes.home} className=' bg-orange-600 text-slate-800 p-2  font-semibold' >
       Back
-    </button>
+    </Link>
   );
 };
 
