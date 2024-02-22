@@ -10,7 +10,7 @@ const page = () => {
       </Paragraph>
       <Paragraph>
         Ami pordexi Evechim ballkam Tuka ulo martanv, Hea dukhanchea khonnddant
-        suskar soddun, rudon korun, Maie, Tuka prarth'tanv, Amcher, doiall
+        suskar soddun, rudon korun, Maie, Tuka prarth &apos;tanv, Amcher, doiall
         Xeratini, Tuji kakutichi nodor ghal, Tum konnvalle ani mogall, dulob
         Ankvar Marie, hea prodesa uprant : Tuzo Put Jezu amkam dakhoi,
       </Paragraph>

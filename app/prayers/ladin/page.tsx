@@ -4,8 +4,8 @@ import PrayersLayout from "@/app/components/prayersLayout";
 const page = () => {
   return (
     <PrayersLayout title={`Saibinnichi Ladin - Litany of Loretto`}>
-      {ladin.split("\n").map((line) => (
-        <Paragraph>{line}</Paragraph>
+      {ladin.split("\n").map((line,index) => (
+        <Paragraph key={index}>{line}</Paragraph>
       ))}
       <Paragraph>Amen.</Paragraph>
     </PrayersLayout>
