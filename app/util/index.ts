@@ -18,3 +18,9 @@ export const mapDayToKonkani: any = {
   friday: "Sûkrar",
   saturday: "Shenvar",
 };
+
+export function toNormalCase(str:string) {
+  return str.replace(/\b\w/g, function(char) {
+      return char.toUpperCase();
+  });
+}
