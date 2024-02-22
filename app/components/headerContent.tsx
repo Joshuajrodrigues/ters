@@ -39,7 +39,7 @@ export const HeaderContent = () => {
           <ul className="flex mb-8 p-0 mx-0 justify-between items-center">
             <li className="my-2 underline">
               <QuickLinks route={appRoutes.allmysteries}>
-                All mysteries
+              Ruzai Saibinnicho Ters
               </QuickLinks>
             </li>
             <li className="my-2 underline">
