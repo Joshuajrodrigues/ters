@@ -1,17 +1,9 @@
-import BackButton from "@/app/components/backButton";
-import FullDivide from "@/app/components/fullDivide";
 import Paragraph from "@/app/components/paragraph";
-import Title from "@/app/components/title";
-import React from "react";
+import PrayersLayout from "@/app/components/prayersLayout";
 
 const page = () => {
   return (
-    <section className=" space-y-8">
-      <BackButton />
-   
-      <Title text={`Sotman’tam Devak`} />
-  
-
+    <PrayersLayout title={`Sotman’tam Devak`}>
       <Paragraph>
         Sotman’tam Devak, Sorpodvedar Bapak, Sorga ani prithumechea Rochnnarak.
       </Paragraph>
@@ -26,7 +18,7 @@ const page = () => {
         jivontponn, Sasnnachem jivit.
       </Paragraph>
       <Paragraph>Amen.</Paragraph>
-    </section>
+    </PrayersLayout>
   );
 };
 

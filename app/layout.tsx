@@ -9,7 +9,7 @@ import FullDivide from "./components/fullDivide";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ters",
+  title: "Holy Ters",
   description: "Konkani rosary",
 };
 
