@@ -6,7 +6,7 @@ const BackButton = () => {
   return (
  
     <Link href={appRoutes.home} className=' bg-orange-600 text-slate-800 p-2  font-semibold' >
-      Back
+      Fathi / Back 
     </Link>
   );
 };
