@@ -7,7 +7,6 @@ const page = () => {
       {ladin.split("\n").map((line) => (
         <Paragraph>{line}</Paragraph>
       ))}
-
       <Paragraph>Amen.</Paragraph>
     </PrayersLayout>
   );
