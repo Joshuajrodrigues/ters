@@ -1,10 +1,14 @@
-import { RosaryOfTheDay } from "../types";
-
+"use client"
 import { getDay, mapDayToKonkani } from "../util";
+import rosaries from '@/app/data/rosary.json'
 
-export const TodaysMystery = ({ gutt }: { gutt: RosaryOfTheDay[] }) => {
-  let data = gutt[0];
+export const TodaysMystery = () => {
 
+  const day = getDay()
+  
+  
+  const data = rosaries.filter((item)=>item.day.includes(day.toLowerCase()))[0]
+  console.log("rosaries",data);
   
   return (
     <>
