@@ -8,7 +8,10 @@ export const HeaderContent = () => {
   return (
     <>
       <header>
-        <h1 className="text-8xl my-8">Ters </h1>
+        <h1 className="text-8xl my-8">
+          <QuickLinks route="/">Holy Ters</QuickLinks>
+           
+          </h1>
       </header>
       <section className="w-full p-0">
         <nav>

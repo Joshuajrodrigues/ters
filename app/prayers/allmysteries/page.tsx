@@ -11,8 +11,8 @@ export default async function AllRosaries() {
     <>
       <BackButton />
       {
-        data.map((item)=>(
-          <>
+        data.map((item,index)=>(
+          <div key={index}>
             <GuttLayout 
             day={
               <>
@@ -20,7 +20,7 @@ export default async function AllRosaries() {
               </>
             }
             gutt={item}/>
-          </>
+          </div>
         ))
       }
     </>

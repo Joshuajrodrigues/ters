@@ -1,5 +1,10 @@
-export const Prayers=()=>{
-    return(
-        <></>
-    )
-}
+
+
+export default async function Prayers() {
+
+  
+    return (
+      <></>
+    );
+  }
+  
