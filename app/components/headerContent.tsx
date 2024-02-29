@@ -32,7 +32,7 @@ export const HeaderContent = () => {
         <Image
           placeholder="blur"
           src={heroImage}
-          className="w-full h-52"
+          className="w-full h-52 md:h-96"
           alt="Rosary"
         />
         <nav>

@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={inter.className + " " + " bg-slate-800 text-orange-600 mx-5"}
+        className={inter.className + " " + " bg-slate-800 text-orange-600 mx-5 md:mx-72 md:text-xl"}
       >
         <HeaderContent/>
         {children}{" "}

@@ -19,6 +19,7 @@ export default async function AllRosaries() {
                  Dis: {toNormalCase(item.day.join(",")) }
               </>
             }
+            title=""
             gutt={item}/>
           </div>
         ))

@@ -8,7 +8,7 @@ export default async function Home() {
 
   
   return (
-    <main className=" min-h-screen flex-col ">
+    <main className=" min-h-screen flex-col">
       <section>
         <TodaysMystery/>
       </section>

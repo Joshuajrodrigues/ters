@@ -5,7 +5,7 @@ const Title = ({ text }: { text: string }) => {
   return (
     <>
       <FullDivide />
-      <h2 className=" text-3xl mt-8">{text}</h2>
+      <h2 className=" text-3xl mt-8 font-extrabold">{text}</h2>
       <FullDivide />
     </>
   );

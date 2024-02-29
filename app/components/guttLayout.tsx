@@ -6,14 +6,16 @@ import Title from "./title";
 export const GuttLayout = ({
   gutt,
   day,
+  title="Aicho gutt:"
 }: {
   gutt?: RosaryOfTheDay;
   day: ReactNode;
+  title?:string
 }) => {
   return (
     <>
 
-      <Title text={`Aicho gutt: ${gutt?.title}`} />
+      <Title text={`${title} ${gutt?.title}`} />
 
       <h3 className="mt-8 text-2xl ">{day}</h3>
       {gutt?.mysteries.map((item, index) => (
